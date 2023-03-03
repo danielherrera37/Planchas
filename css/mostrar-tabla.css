@@ -1,0 +1,241 @@
+#show-modal{
+  text-align: center;
+  transition:all 0.15s linear;
+}
+#show-modal:hover{
+  cursor:pointer;
+  padding:10px;
+}
+.modal{
+  position:fixed;
+  top: -100vh;
+  /* left: 0; */
+  width: 100%;
+	transition: opacity 0.35s ease;
+}
+.contenido-agregar h1{
+	color: black;
+}
+.modal .content-modal{
+	width:100%;
+	position:fixed;
+	top:-100vh;	left: 0%;
+	z-index: 999999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: top 0.35s ease;
+}
+.modal:target{
+	opacity: 1;
+	top: 0;
+}
+.modal .btn-close-modal{
+	position:absolute;
+	left: 0%;
+	width:100%;
+	z-index:99999999;
+}
+.modal:target .content-modal{
+	top:10%;
+	left: 0%;
+	transition: top 0.35s ease;
+	background-color: #6aae99;
+}
+
+
+/* MOSTRAR CUADRO PARA AGREGAR ITEMS */
+#show-modal{
+  text-align: center;
+  transition:all 0.15s linear;
+}
+#show-modal:hover{
+  cursor:pointer;
+  padding:10px;
+}
+.modal-articulos{	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+  position:fixed;
+  top: -200vh;
+	transition: opacity 0.35s ease;
+}
+.modal-articulos .contenido-agregar{
+	margin: auto;
+	width:80%;
+	max-width: 600px;
+	position:fixed;
+	top:-200vh;
+	padding: 10px;
+	z-index: 999999;
+	background-color:rgba(33, 25, 75, 0.979);
+	border-radius: 10px;border: solid 2px #372a77fa;
+	transition: top 0.35s ease;	left: 10%;
+}
+.modal-articulos:target{
+	opacity: 1;
+	top: 0;
+}
+.modal-articulos .close-modal{
+	position: static;
+	z-index: normal;
+	background-color: rgb(190, 190, 255);
+	padding: 7px;
+	border-radius: 5px;
+}
+.modal-articulos:target .contenido-agregar{
+	top:10%;
+	transition: top 0.35s ease;
+}
+
+/* INGRESO DE OP*/
+
+.modal-OP{	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+  position:fixed;
+  top: -200vh;
+	transition: opacity 0.35s ease;
+}
+.modal-OP .contenido-agregar{
+	margin: auto;
+	width:80%;
+	max-width: 600px;
+	position:fixed;
+	top:-200vh;
+	padding: 10px;
+	z-index: 999999;
+	background-color:rgba(33, 25, 75, 0.979);
+	border-radius: 10px;border: solid 2px #372a77fa;
+	transition: top 0.35s ease;	right: 20%;
+}
+.modal-OP:target{
+	opacity: 1;
+	top: 0;
+}
+.modal-OP .close-modal{
+	position: static;
+	z-index: normal;
+	background-color: rgb(190, 190, 255);
+	padding: 7px;
+	border-radius: 5px;
+}
+.modal-OP:target .contenido-agregar{
+	top:10%;
+	transition: top 0.35s ease;
+}
+
+/* INGRESO DE UBICACION  */
+
+.modal-ubicacion{	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+  top: -100vh;
+	transition: opacity 0.35s ease;
+	z-index: 10000;
+	left: 0;
+	padding: 100px;
+}
+.modal-ubicacion .contenido-agregar{
+	margin: auto;
+	width:80%;
+	max-width: 600px;
+	position:fixed;
+	top:-100vh;
+	left: 100px;
+	padding: 10px;
+	z-index: 999999;
+	background-color:rgba(216, 230, 255, 0.979);
+	border-radius: 10px;border: solid 2px #73789afa;
+	transition: top 0.35s ease;	right: 10%;
+}
+.modal-ubicacion:target{
+	opacity: 1;
+	top: 0;
+	left: -100px;
+}
+.modal-ubicacion .close-modal{
+	position: static;
+	z-index: normal;
+	background-color: rgb(190, 214, 255);
+	padding: 7px;
+	border-radius: 5px;
+}
+.modal-ubicacion:target .contenido-agregar{
+	top:10%;
+	transition: top 0.35s ease;
+}
+
+.modal-ubicacion input,select{
+	width: 100%;
+}
+.modal-ubicacion textarea{
+	max-width: 500px;
+	min-width: 200px;
+	min-height: 50px;
+	max-height: 300px;
+}
+
+
+
+
+
+
+
+
+.modal-ubicacion{	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+  top: -100vh;
+	transition: opacity 0.35s ease;
+	z-index: 10000;
+	left: 0;
+	padding: 100px;
+}
+.modal-ubicacion .contenido-agregar{
+	margin: auto;
+	width:80%;
+	max-width: 600px;
+	position:fixed;
+	top:-100vh;
+	left: 100px;
+	padding: 10px;
+	z-index: 999999;
+	background-color:rgba(216, 230, 255, 0.979);
+	border-radius: 10px;border: solid 2px #73789afa;
+	transition: top 0.35s ease;	right: 10%;
+}
+.modal-ubicacion:target{
+	opacity: 1;
+	top: 0;
+	left: -100px;
+}
+.modal-ubicacion .close-modal{
+	position: static;
+	z-index: normal;
+	background-color: rgb(190, 214, 255);
+	padding: 7px;
+	border-radius: 5px;
+}
+.modal-ubicacion:target .contenido-agregar{
+	top:10%;
+	transition: top 0.35s ease;
+}
+
+.modal-ubicacion input,select{
+	width: 100%;
+}
+.modal-ubicacion textarea{
+	max-width: 550px;
+	min-width: 200px;
+	min-height: 50px;
+	max-height: 300px;
+}
